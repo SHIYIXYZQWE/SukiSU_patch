@@ -271,10 +271,10 @@ diff -u a/kernel/module.c b/kernel/module.c
 +    "lzo", "lzo_rle",
 +#endif
 +#if IS_BUILTIN(CONFIG_ZRAM)
-+    "zram",
++    "zram", "oplus_bsp_hybridswap_zram",
 +#endif
 +#if IS_BUILTIN(CONFIG_ZSMALLOC)
-+    "zsmalloc",
++    "zsmalloc", "oplus_bsp_zsmalloc",
 +#endif
 +};
 +
